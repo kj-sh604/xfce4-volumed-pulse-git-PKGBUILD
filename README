@@ -19,9 +19,9 @@ So, here we go…
      https://gitlab.xfce.org/apps/xfce4-volumed-pulse
 5. Go one directory up to where the PKGBUILD file is
 6. Run the following command:
-     makepkg -s -f -C
+     makepkg -s -f 
 6½. If you're ballsy you can run without integrity checks like this:
-     makepkg -s -f -C --skipinteg --skipchecksums --nocheck
+     makepkg -s -f --skipinteg --skipchecksums --nocheck
 7. Once built, install the package (whichever way you prefer to do that)
 
 
